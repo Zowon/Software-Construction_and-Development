@@ -1,0 +1,44 @@
+# Create a new environment named myenv with Python 3.9
+conda create -n myenv python=3.9
+
+# Activate the newly created environment
+conda activate myenv
+
+# Deactivate the environment
+conda deactivate
+
+# Delete the environment (if needed)
+conda remove -n myenv --all
+
+# Install a package (e.g., NumPy)
+conda install numpy
+
+# List installed packages
+conda list
+
+# Update a specific package (e.g., pandas)
+conda update pandas
+
+# Remove a package (e.g., pandas)
+conda remove pandas
+
+
+# Install a package (e.g., NumPy)
+conda install numpy
+
+# List installed packages
+conda list
+
+# Update a specific package (e.g., pandas)
+conda update pandas
+
+# Remove a package (e.g., pandas)
+conda remove pandas
+
+
+
+# Install Poetry using pip
+pip install poetry
+
+# Verify installation
+poetry --version

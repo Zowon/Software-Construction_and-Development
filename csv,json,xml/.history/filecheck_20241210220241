@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For Validating JSON Files
+Install JSON Processor (jq)
+
+
+sudo apt-get install jq
+Validate JSON File
+Replace test.json with the name of your JSON file:
+
+
+jq . test.json

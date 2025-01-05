@@ -1,0 +1,16 @@
+For Validating JSON Files
+Install JSON Processor (jq)
+
+bash
+Copy code
+sudo apt-get install jq
+Validate JSON File
+Replace test.json with the name of your JSON file:
+
+bash
+Copy code
+jq . test.json
+Command Explanation:
+jq: A command-line JSON processor.
+.: Outputs the entire JSON file in a pretty-printed format.
+If the JSON is invalid, you'll see an error message indicating the problem.

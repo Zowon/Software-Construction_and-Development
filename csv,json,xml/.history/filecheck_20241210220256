@@ -1,0 +1,36 @@
+For Validating XML Files
+Install XML Utilities
+
+
+sudo apt-get install libxml2-utils
+Validate XML File
+Replace test.xml with the name of your XML file:
+
+xmllint --noout test.xml
+Command Explanation:
+xmllint: A tool for parsing and validating XML.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For Validating JSON Files
+Install JSON Processor (jq)
+
+
+sudo apt-get install jq
+Validate JSON File
+Replace test.json with the name of your JSON file:
+
+
+jq . test.json
